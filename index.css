@@ -1,0 +1,78 @@
+/*comentario no css*/
+
+.title{
+    font-size: 50px;
+    /*peso da fonte.. bolder, ultrabolder...*/
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#principais-estilos {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin: 40px;
+    border: 7px solid red;
+    /*arredonda o quadro*/
+    border-radius: 10px;
+}
+
+/*hashtag para id e . para classe*/
+#principais-estilos .paragrafo {
+    /*espaçamento entre linhas*/
+    line-height: 1.2;
+    font-size: 20px;
+    color: aqua;
+    
+}
+
+#flexbox .container {
+    /*display flex serve pra colocar lado a lado*/
+    display: flex;
+
+    /*direção do flex row linha ou column em colunas*/
+    flex-direction: row;
+
+    /*espaçamento entre*/
+    gap: 20px;
+
+/*alinhamento horizontal*/
+/*arow dsenha um espaço em toda a cx somando*/
+/*evelyn deixa todos os espaços igual*/
+    justify-content: space-between;
+    align-items: flex-end; /*alinhamento vertical */
+}
+
+#flexbox .container .box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+}
+
+#flexbox .container .box-2 {
+    width: 200px;
+    height: 400px;
+    background-color: rebeccapurple;
+
+}
+
+#grid-layout {
+    margin-top: 20px;
+}
+
+#grid-layout .container-grid {
+    display: grid;
+    /*quantidade de colunas*/
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+} 
+ #grid-layout .container-grid .caixa {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    
+
+ }
+
